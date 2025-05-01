@@ -1,5 +1,5 @@
 readme_content = """
-# Petroleum Reselling Platform
+# Petroleum Resale Platform
 
 ## Description  
 A simple web app for reselling petroleum products. Users can add new products with name, quantity, and price, view all available products, and delete them as needed. Data is stored in the browser using local storage.
