@@ -61,7 +61,7 @@ body {
   #products, #dealer-listings {
     display: grid;
     gap: 1rem;
-    margin-top: 21px;
+    margin-top: 20px;
   }
   
   .product-card {
