@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Petroleum Product</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Add Petroleum Product</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="add.html">Add Petroleum Product</a>
+      <a href="dealers.html">Dealer</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="productForm">
+      <label for="name">Product Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="quantity">Quantity (litres):</label>
+      <input type="number" id="quantity" required />
+
+      <label for="price">Price (KES):</label>
+      <input type="number" id="price" required />
+
+      <button type="submit">Add Product</button>
+    </form>
+
+    <p id="msg"></p>
+  </main>
+
+  <footer>&copy; 2025 Petroleum Reselling</footer>
+
+  <script src="form.js"></script>
+</body>
+
+</html>
